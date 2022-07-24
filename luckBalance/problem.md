@@ -39,7 +39,7 @@ Each of the next `n` lines contains two space-separated integers, `L[i]` and `T[
 **Constraints**
 - `1 ≤ n ≤ 100`
 - `0 ≤ k ≤ N`
-- `1 ≤ L[i] ≤ 10<sup>4</sup>`
+- <code>1 ≤ L[i] ≤ 10<sup>4</sup></code>`
 - `T[i] ∈ {0, 1}`  
   
 **Sample Output**
@@ -61,4 +61,4 @@ STDIN       Function
 ```  
   
 **Explanation**
-There are `n = 6` contests. Of these contests, `4` are important and she cannot lose more than `k = 3` of them. Lena maximizes her luck if she wins the `3<sup>rd</sup>` important contest (where `L[i] = 1`) and loses all of the other five contests for a total luck balance of `5 + 2 + 8 + 10 + 5 - 1 = 29`.
+There are `n = 6` contests. Of these contests, `4` are important and she cannot lose more than `k = 3` of them. Lena maximizes her luck if she wins the <code>3<sup>rd</sup></code> important contest (where `L[i] = 1`) and loses all of the other five contests for a total luck balance of `5 + 2 + 8 + 10 + 5 - 1 = 29`.
